@@ -1,0 +1,13 @@
+@import './styles/color';
+@import './styles/spacing';
+@import './styles/typography';
+@import './styles/grid';
+@import './styles/normalize';
+
+@import './components/mainLetters/mainLetters';
+
+
+html {
+  scroll-behavior: smooth;
+  @include font-regular
+}
